@@ -10,14 +10,12 @@ import Cards from "./component/Cards.jsx";
 
 const Home = () => {
     return (
-        <>
-        <div className="container-fluid">
+        <div className="container-fluid row vh-100">
             <Navbar /> 
             <Jumbotron />
             <Cards />
             <Footer />
-            </div>
-        </>
+        </div>
     );
 
  

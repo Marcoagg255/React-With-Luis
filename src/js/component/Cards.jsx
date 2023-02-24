@@ -3,7 +3,7 @@ import Card from "./Card.jsx";
 
 export default function Cards  () {
 return(
-    <div className="d-inline-flex object-fit-contain">
+    <div className="d-inline-flex">
         <Card />
         <Card />
         <Card />
